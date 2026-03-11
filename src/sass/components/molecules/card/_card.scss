@@ -1,0 +1,8 @@
+﻿.card{
+background:var(--surface);
+padding:20px;
+border-radius:var(--radius);
+box-shadow:var(--shadow-md);
+}
+.card-title{font-weight:700;margin-bottom:6px}
+.card-text{font-size:14px;opacity:.7}

@@ -1,0 +1,10 @@
+﻿{
+"name":"sass-ui-framework",
+"version":"1.0.0",
+"scripts":{
+"sass":"sass src/sass/main.scss dist/css/main.css --watch"
+},
+"devDependencies":{
+"sass":"^1.69.0"
+}
+}

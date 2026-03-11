@@ -1,0 +1,12 @@
+﻿.dropdown{
+position:relative;
+display:inline-block;
+}
+.dropdown-menu{
+margin-top:8px;
+background:var(--surface);
+border-radius:8px;
+box-shadow:var(--shadow-sm);
+padding:8px;
+}
+.dropdown-item{padding:6px 10px}
