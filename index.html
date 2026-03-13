@@ -1,0 +1,54 @@
+﻿<!doctype html>
+
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+    <link rel="stylesheet" href="./dist/css/reset.css" />
+  </head>
+  <body>
+    <div class="app-layout">
+      <div id="sidebar"></div>
+      <main class="main-content">
+        <h1>Galeria de componentes</h1>
+        <div class="gallery">
+          <div class="component">
+            <h2>Componente Botón</h2>
+            <div id="button"></div>
+          </div>
+          <div class="component">
+            <h2>Componente input</h2>
+            <div id="input"></div>
+          </div>
+          <div class="component">
+            <h2>Componente tabla</h2>
+            <div id="table"></div>
+          </div>
+          <div class="component">
+            <h2>Componente Card</h2>
+            <div id="card"></div>
+          </div>
+          <div class="component">
+            <h2>Componente Modal</h2>
+            <div id="modal"></div>
+          </div>
+          <div class="component">
+            <h2>Componente Navbar</h2>
+            <div id="navbar"></div>
+          </div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module">
+      import "./src/runtime/loader.js";
+      loadComponent("sidebar", "#sidebar");
+      loadComponent("button", "#button");
+      loadComponent("input", "#input");
+      loadComponent("table", "#table");
+      loadComponent("card", "#card");
+      loadComponent("modal", "#modal");
+      loadComponent("navbar", "#navbar");
+    </script>
+  </body>
+</html>

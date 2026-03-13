@@ -1,0 +1,17 @@
+﻿.ui-input {
+  width: 100%;
+  padding: 10px;
+  border-radius: 8px;
+  background-color: var(--color-primary);
+  color: var(--text-white);
+  border-style: none;
+}
+
+.ui-input::placeholder {
+  color: var(--text-white);
+}
+
+.ui-input:active {
+  border-radius: 2px;
+  border-style: none;
+}

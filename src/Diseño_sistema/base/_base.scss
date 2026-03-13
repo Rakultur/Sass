@@ -1,0 +1,47 @@
+﻿* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+body {
+  font-family: system-ui;
+  background: var(--color-bg);
+  color: var(--color-text);
+}
+
+/* Conteiner Layout*/
+
+.app-layout {
+  display: grid;
+  grid-template-columns: 240px 1fr;
+  min-height: 100vh;
+}
+
+.main-content {
+  padding: 40px;
+}
+
+@media (max-width: 768px) {
+  .main-content {
+    margin-left: 0;
+    margin-bottom: 70px;
+  }
+}
+
+/* Conteiner Layout*/
+
+.gallery {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+}
+
+.component {
+  display: flex;
+  flex-flow: column;
+  justify-content: center;
+  align-items: center;
+  background: #f8fafc;
+  padding: 20px;
+  border-radius: 10px;
+}

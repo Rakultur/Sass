@@ -1,13 +1,10 @@
-﻿@use "core/tokens";
-@use "themes/dark";
-@use "base/global";
-@use "components/atoms/button/button";
-@use "components/atoms/badge/badge";
-@use "components/atoms/avatar/avatar";
-@use "components/atoms/input/input";
-@use "components/molecules/card/card";
-@use "components/molecules/alert/alert";
-@use "components/molecules/dropdown/dropdown";
-@use "components/organisms/navbar/navbar";
-@use "components/organisms/sidebar/sidebar";
-@use "components/organisms/data-table/data-table";
+﻿@use "../Diseño_sistema/tokens/tokens";
+@use "../Diseño_sistema/base/base";
+
+@use "../components/button/button";
+@use "../components/card/card";
+@use "../components/navbar/navbar";
+@use "../components/input/input";
+@use "../components/modal/modal";
+@use "../components/table/table";
+@use "../components/sidebar/sidebar";

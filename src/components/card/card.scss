@@ -1,0 +1,30 @@
+﻿.ui-card-modern {
+  background: #f9f9f9; /* Fondo grisáceo muy claro */
+  padding: 25px;
+  border-radius: 12px;
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1); /* Sombra más sutil y extendida */
+  max-width: 500px; /* Ancho máximo para evitar que se estire demasiado */
+  margin: 30px auto; /* Centrado con más margen superior */
+  transition: all 0.3s ease; /* Transición suave para hover */
+  border: 1px solid #eee; /* Borde sutil */
+}
+
+.ui-card-modern:hover {
+  box-shadow: 0 12px 24px rgba(0, 0, 0, 0.15); /* Sombra más pronunciada en hover */
+  transform: translateY(-3px); /* Ligero desplazamiento hacia arriba en hover */
+}
+
+.ui-card-title {
+  font-size: 1.75em; /* Título más grande */
+  font-weight: 600; /* Más negrita */
+  color: #333;
+  margin-bottom: 15px;
+  border-bottom: 2px solid #eee; /* Línea sutil debajo del título */
+  padding-bottom: 10px;
+}
+
+.ui-card-content {
+  font-size: 1.1em;
+  color: #666; /* Color de texto más suave */
+  line-height: 1.6; /* Espaciado entre líneas para mejor legibilidad */
+}

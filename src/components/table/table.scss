@@ -1,0 +1,36 @@
+﻿// Variables para colores y estilos
+$primary-color: #4caf50;
+$header-bg-color: #f8f8f8;
+$border-color: #ddd;
+$text-color: #333;
+$hover-bg-color: #eef4f7;
+$border-radius: 8px;
+
+.ui-table {
+  width: 100%;
+  max-width: 900px;
+  margin: 20px auto;
+  border-collapse: separate;
+  border-spacing: 0;
+  font-family: "Arial", sans-serif;
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.07);
+  border-radius: $border-radius;
+  overflow: hidden;
+  background-color: #fff;
+  transition: all 0.3s ease;
+
+  thead {
+    background-color: $header-bg-color;
+    box-shadow: inset 0 -1px 0 $border-color;
+  }
+
+  th {
+    padding: 14px 20px;
+    text-align: left;
+    font-weight: 600;
+    color: $text-color;
+    border-bottom: 2px solid $border-color;
+    background-color: $header-bg-color;
+    font-size: 1em;
+  }
+}

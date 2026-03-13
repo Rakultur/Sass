@@ -1,10 +1,1 @@
-﻿{
-"name":"sass-ui-framework",
-"version":"1.0.0",
-"scripts":{
-"sass":"sass src/sass/main.scss dist/css/main.css --watch"
-},
-"devDependencies":{
-"sass":"^1.69.0"
-}
-}
+{"name":"ui-components","version":"1.0.0","scripts":{"sass":"sass src/sass/main.scss dist/css/main.css --watch"},"devDependencies":{"sass":"^1.69.0"},"dependencies":{"chokidar-cli":"^3.0.0","nodemon":"^3.1.14"}}

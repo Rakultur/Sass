@@ -1,0 +1,26 @@
+<!doctype html>
+<html>
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="./dist/css/main.css" />
+  </head>
+  <body>
+    <div class="app-layout">
+      <div id="sidebar"></div>
+      <main class="main-content">
+        <h1>Galeria de componentes</h1>
+        <div class="gallery">
+          <div class="component" id="button"></div>
+          <div class="component" id="input"></div>
+        </div>
+      </main>
+    </div>
+
+    <script type="module">
+      import "./src/runtime/loader.js";
+      loadComponent("button", "#button");
+      loadComponent("input", "#input");
+      loadComponent("sidebar", "#sidebar");
+    </script>
+  </body>
+</html>
